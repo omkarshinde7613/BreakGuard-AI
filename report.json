@@ -1,0 +1,13 @@
+{
+  "overall_risk": "MEDIUM",
+  "changes": [
+    {
+      "type": "parameter_type_changed",
+      "parameter": "id",
+      "old_type": "integer",
+      "new_type": "string",
+      "endpoint": "GET /users/{id}",
+      "risk": "MEDIUM"
+    }
+  ]
+}
