@@ -1,0 +1,1001 @@
+description,risk
+field 'role' type changed from string to object in '/products/{id}',MEDIUM
+description updated for '/products/{id}',LOW
+required field 'status' was removed from '/users/{id}',HIGH
+endpoint '/orders' was removed,HIGH
+endpoint '/users' was removed,HIGH
+required field 'role' was removed from '/products/{id}',HIGH
+new endpoint '/users' was added,LOW
+field 'email' type changed from integer to array in '/products/{id}',MEDIUM
+description updated for '/products',LOW
+field 'role' type changed from integer to integer in '/users/{id}',MEDIUM
+field 'role' type changed from boolean to object in '/products/{id}',MEDIUM
+field 'token' type changed from boolean to object in '/users/{id}',MEDIUM
+field 'id' was renamed in '/products/{id}',MEDIUM
+new endpoint '/products/{id}' was added,LOW
+field 'status' was renamed in '/orders/{id}',MEDIUM
+description updated for '/users',LOW
+description updated for '/products/{id}',LOW
+optional field 'status' was added to '/orders',LOW
+endpoint '/users' was removed,HIGH
+required field 'status' was removed from '/users',HIGH
+optional field 'email' was added to '/products',LOW
+description updated for '/orders',LOW
+required field 'id' was removed from '/auth/login',HIGH
+required field 'role' was removed from '/orders/{id}',HIGH
+new endpoint '/auth/login' was added,LOW
+required field 'status' was removed from '/products',HIGH
+optional field 'amount' was added to '/orders',LOW
+field 'id' type changed from object to array in '/orders/{id}',MEDIUM
+field 'email' was renamed in '/users/{id}',MEDIUM
+endpoint '/products' was removed,HIGH
+description updated for '/products/{id}',LOW
+new endpoint '/users' was added,LOW
+optional field 'status' was added to '/orders/{id}',LOW
+description updated for '/users',LOW
+optional field 'email' was added to '/products',LOW
+endpoint '/orders' was removed,HIGH
+field 'email' was renamed in '/users',MEDIUM
+required field 'email' was removed from '/auth/login',HIGH
+description updated for '/orders/{id}',LOW
+required field 'id' was removed from '/products/{id}',HIGH
+required field 'status' was removed from '/orders/{id}',HIGH
+optional field 'role' was added to '/orders',LOW
+optional field 'role' was added to '/products',LOW
+required field 'created_at' was removed from '/users',HIGH
+required field 'created_at' was removed from '/orders',HIGH
+description updated for '/users/{id}',LOW
+new endpoint '/auth/login' was added,LOW
+required field 'created_at' was removed from '/users/{id}',HIGH
+description updated for '/users',LOW
+field 'email' type changed from string to integer in '/orders',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+new endpoint '/users' was added,LOW
+description updated for '/users/{id}',LOW
+field 'id' type changed from string to boolean in '/products',MEDIUM
+required field 'status' was removed from '/orders/{id}',HIGH
+endpoint '/products/{id}' was removed,HIGH
+field 'created_at' was renamed in '/orders/{id}',MEDIUM
+field 'email' was renamed in '/users/{id}',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+description updated for '/auth/login',LOW
+endpoint '/products/{id}' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+endpoint '/users' was removed,HIGH
+required field 'role' was removed from '/users',HIGH
+description updated for '/products/{id}',LOW
+optional field 'status' was added to '/users',LOW
+optional field 'token' was added to '/orders',LOW
+new endpoint '/products' was added,LOW
+new endpoint '/orders/{id}' was added,LOW
+field 'email' type changed from array to array in '/users',MEDIUM
+optional field 'token' was added to '/products/{id}',LOW
+optional field 'token' was added to '/products',LOW
+endpoint '/products' was removed,HIGH
+field 'created_at' type changed from boolean to integer in '/orders/{id}',MEDIUM
+optional field 'amount' was added to '/orders',LOW
+field 'email' type changed from string to string in '/users/{id}',MEDIUM
+endpoint '/users' was removed,HIGH
+field 'email' type changed from string to array in '/products/{id}',MEDIUM
+optional field 'created_at' was added to '/users/{id}',LOW
+endpoint '/users/{id}' was removed,HIGH
+description updated for '/auth/login',LOW
+optional field 'role' was added to '/products/{id}',LOW
+new endpoint '/users/{id}' was added,LOW
+endpoint '/orders/{id}' was removed,HIGH
+description updated for '/users',LOW
+optional field 'id' was added to '/orders',LOW
+field 'token' type changed from integer to array in '/products/{id}',MEDIUM
+field 'id' type changed from array to integer in '/users',MEDIUM
+description updated for '/products',LOW
+field 'email' was renamed in '/users',MEDIUM
+optional field 'id' was added to '/orders/{id}',LOW
+new endpoint '/auth/login' was added,LOW
+optional field 'id' was added to '/orders/{id}',LOW
+required field 'email' was removed from '/orders',HIGH
+field 'role' was renamed in '/orders',MEDIUM
+required field 'role' was removed from '/products',HIGH
+description updated for '/orders',LOW
+required field 'amount' was removed from '/users/{id}',HIGH
+optional field 'role' was added to '/orders',LOW
+endpoint '/products' was removed,HIGH
+required field 'amount' was removed from '/auth/login',HIGH
+field 'role' was renamed in '/orders/{id}',MEDIUM
+required field 'created_at' was removed from '/auth/login',HIGH
+new endpoint '/auth/login' was added,LOW
+optional field 'created_at' was added to '/users',LOW
+field 'token' was renamed in '/orders',MEDIUM
+description updated for '/orders',LOW
+endpoint '/orders/{id}' was removed,HIGH
+description updated for '/products',LOW
+field 'token' type changed from string to integer in '/auth/login',MEDIUM
+description updated for '/orders',LOW
+optional field 'created_at' was added to '/products',LOW
+field 'status' was renamed in '/products/{id}',MEDIUM
+description updated for '/auth/login',LOW
+endpoint '/auth/login' was removed,HIGH
+field 'email' type changed from boolean to boolean in '/products/{id}',MEDIUM
+field 'amount' was renamed in '/orders/{id}',MEDIUM
+field 'email' type changed from array to boolean in '/orders/{id}',MEDIUM
+new endpoint '/products' was added,LOW
+required field 'email' was removed from '/orders',HIGH
+new endpoint '/users/{id}' was added,LOW
+description updated for '/auth/login',LOW
+description updated for '/users/{id}',LOW
+field 'role' type changed from array to object in '/orders',MEDIUM
+description updated for '/products',LOW
+new endpoint '/products' was added,LOW
+required field 'email' was removed from '/orders/{id}',HIGH
+endpoint '/products/{id}' was removed,HIGH
+required field 'amount' was removed from '/products/{id}',HIGH
+field 'created_at' type changed from string to array in '/products/{id}',MEDIUM
+new endpoint '/products' was added,LOW
+field 'status' type changed from boolean to string in '/users/{id}',MEDIUM
+endpoint '/products' was removed,HIGH
+optional field 'token' was added to '/products',LOW
+endpoint '/orders/{id}' was removed,HIGH
+optional field 'status' was added to '/auth/login',LOW
+description updated for '/orders/{id}',LOW
+field 'amount' was renamed in '/users/{id}',MEDIUM
+field 'status' type changed from string to object in '/auth/login',MEDIUM
+required field 'created_at' was removed from '/orders/{id}',HIGH
+field 'role' type changed from string to array in '/users',MEDIUM
+required field 'email' was removed from '/users',HIGH
+description updated for '/auth/login',LOW
+field 'status' was renamed in '/users',MEDIUM
+optional field 'token' was added to '/users',LOW
+required field 'role' was removed from '/orders/{id}',HIGH
+endpoint '/products/{id}' was removed,HIGH
+new endpoint '/orders' was added,LOW
+field 'token' type changed from boolean to string in '/orders',MEDIUM
+field 'id' was renamed in '/auth/login',MEDIUM
+field 'amount' type changed from string to string in '/users',MEDIUM
+new endpoint '/products' was added,LOW
+field 'created_at' was renamed in '/users/{id}',MEDIUM
+description updated for '/orders',LOW
+description updated for '/users/{id}',LOW
+optional field 'created_at' was added to '/auth/login',LOW
+description updated for '/products/{id}',LOW
+required field 'status' was removed from '/users/{id}',HIGH
+optional field 'amount' was added to '/orders/{id}',LOW
+description updated for '/users/{id}',LOW
+field 'id' type changed from boolean to array in '/products',MEDIUM
+endpoint '/products' was removed,HIGH
+description updated for '/products',LOW
+optional field 'token' was added to '/orders/{id}',LOW
+optional field 'token' was added to '/orders',LOW
+new endpoint '/products/{id}' was added,LOW
+required field 'status' was removed from '/users',HIGH
+description updated for '/users/{id}',LOW
+new endpoint '/products/{id}' was added,LOW
+required field 'token' was removed from '/products/{id}',HIGH
+new endpoint '/users' was added,LOW
+field 'token' was renamed in '/products/{id}',MEDIUM
+required field 'token' was removed from '/users/{id}',HIGH
+description updated for '/products',LOW
+field 'status' type changed from object to integer in '/orders/{id}',MEDIUM
+required field 'role' was removed from '/products',HIGH
+optional field 'created_at' was added to '/products/{id}',LOW
+field 'amount' type changed from array to string in '/orders/{id}',MEDIUM
+required field 'created_at' was removed from '/users',HIGH
+optional field 'id' was added to '/products/{id}',LOW
+description updated for '/users',LOW
+field 'token' type changed from boolean to array in '/users/{id}',MEDIUM
+field 'token' was renamed in '/products',MEDIUM
+description updated for '/users/{id}',LOW
+description updated for '/auth/login',LOW
+field 'created_at' was renamed in '/products',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+endpoint '/orders/{id}' was removed,HIGH
+new endpoint '/orders' was added,LOW
+required field 'created_at' was removed from '/users/{id}',HIGH
+description updated for '/products',LOW
+new endpoint '/users' was added,LOW
+optional field 'id' was added to '/auth/login',LOW
+field 'role' was renamed in '/orders/{id}',MEDIUM
+optional field 'amount' was added to '/users/{id}',LOW
+endpoint '/products' was removed,HIGH
+new endpoint '/products/{id}' was added,LOW
+optional field 'status' was added to '/orders/{id}',LOW
+endpoint '/products/{id}' was removed,HIGH
+field 'token' was renamed in '/users/{id}',MEDIUM
+field 'created_at' type changed from string to integer in '/products/{id}',MEDIUM
+optional field 'id' was added to '/orders',LOW
+field 'token' was renamed in '/products',MEDIUM
+endpoint '/products/{id}' was removed,HIGH
+field 'token' type changed from integer to integer in '/products/{id}',MEDIUM
+endpoint '/products' was removed,HIGH
+endpoint '/users/{id}' was removed,HIGH
+description updated for '/users/{id}',LOW
+endpoint '/products' was removed,HIGH
+required field 'status' was removed from '/orders',HIGH
+description updated for '/orders',LOW
+new endpoint '/users/{id}' was added,LOW
+optional field 'amount' was added to '/products',LOW
+required field 'amount' was removed from '/orders/{id}',HIGH
+description updated for '/users/{id}',LOW
+description updated for '/auth/login',LOW
+optional field 'id' was added to '/users/{id}',LOW
+optional field 'token' was added to '/users/{id}',LOW
+required field 'status' was removed from '/orders/{id}',HIGH
+field 'created_at' type changed from boolean to array in '/users/{id}',MEDIUM
+required field 'email' was removed from '/products/{id}',HIGH
+field 'status' was renamed in '/users',MEDIUM
+description updated for '/products',LOW
+optional field 'token' was added to '/users',LOW
+field 'token' type changed from string to string in '/users/{id}',MEDIUM
+new endpoint '/orders/{id}' was added,LOW
+field 'token' type changed from boolean to integer in '/auth/login',MEDIUM
+field 'created_at' type changed from object to boolean in '/products',MEDIUM
+endpoint '/products/{id}' was removed,HIGH
+description updated for '/products',LOW
+required field 'token' was removed from '/products',HIGH
+field 'created_at' was renamed in '/products',MEDIUM
+description updated for '/orders/{id}',LOW
+new endpoint '/orders' was added,LOW
+new endpoint '/orders' was added,LOW
+optional field 'amount' was added to '/orders/{id}',LOW
+field 'email' type changed from integer to integer in '/orders/{id}',MEDIUM
+optional field 'id' was added to '/products',LOW
+optional field 'status' was added to '/products/{id}',LOW
+optional field 'created_at' was added to '/users/{id}',LOW
+new endpoint '/products/{id}' was added,LOW
+description updated for '/auth/login',LOW
+field 'email' type changed from integer to boolean in '/users',MEDIUM
+required field 'role' was removed from '/orders',HIGH
+endpoint '/users' was removed,HIGH
+required field 'created_at' was removed from '/auth/login',HIGH
+field 'status' was renamed in '/orders/{id}',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+field 'created_at' type changed from object to string in '/auth/login',MEDIUM
+endpoint '/products/{id}' was removed,HIGH
+field 'amount' type changed from object to string in '/users',MEDIUM
+optional field 'amount' was added to '/users/{id}',LOW
+new endpoint '/users/{id}' was added,LOW
+required field 'token' was removed from '/users',HIGH
+endpoint '/orders' was removed,HIGH
+new endpoint '/products' was added,LOW
+endpoint '/orders/{id}' was removed,HIGH
+required field 'id' was removed from '/auth/login',HIGH
+field 'amount' type changed from object to string in '/users/{id}',MEDIUM
+required field 'role' was removed from '/products/{id}',HIGH
+endpoint '/users' was removed,HIGH
+field 'id' type changed from string to boolean in '/products/{id}',MEDIUM
+endpoint '/orders/{id}' was removed,HIGH
+required field 'amount' was removed from '/orders',HIGH
+optional field 'status' was added to '/users/{id}',LOW
+field 'created_at' type changed from object to array in '/users',MEDIUM
+required field 'status' was removed from '/products',HIGH
+endpoint '/products/{id}' was removed,HIGH
+required field 'token' was removed from '/products/{id}',HIGH
+description updated for '/users/{id}',LOW
+endpoint '/auth/login' was removed,HIGH
+optional field 'token' was added to '/auth/login',LOW
+endpoint '/products' was removed,HIGH
+new endpoint '/users/{id}' was added,LOW
+new endpoint '/auth/login' was added,LOW
+field 'created_at' was renamed in '/users',MEDIUM
+field 'role' type changed from integer to string in '/orders',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+endpoint '/products' was removed,HIGH
+field 'amount' type changed from object to boolean in '/users',MEDIUM
+field 'amount' type changed from object to array in '/users',MEDIUM
+optional field 'role' was added to '/products',LOW
+description updated for '/products/{id}',LOW
+description updated for '/users',LOW
+required field 'role' was removed from '/users/{id}',HIGH
+endpoint '/orders/{id}' was removed,HIGH
+optional field 'created_at' was added to '/orders',LOW
+optional field 'created_at' was added to '/products/{id}',LOW
+optional field 'role' was added to '/orders',LOW
+optional field 'role' was added to '/products',LOW
+required field 'status' was removed from '/products',HIGH
+required field 'id' was removed from '/auth/login',HIGH
+optional field 'role' was added to '/products/{id}',LOW
+description updated for '/users/{id}',LOW
+field 'created_at' type changed from string to boolean in '/orders/{id}',MEDIUM
+optional field 'status' was added to '/users',LOW
+required field 'role' was removed from '/products/{id}',HIGH
+field 'created_at' type changed from boolean to integer in '/users/{id}',MEDIUM
+description updated for '/users/{id}',LOW
+optional field 'role' was added to '/users',LOW
+endpoint '/products' was removed,HIGH
+new endpoint '/orders/{id}' was added,LOW
+optional field 'status' was added to '/auth/login',LOW
+required field 'email' was removed from '/auth/login',HIGH
+new endpoint '/orders/{id}' was added,LOW
+optional field 'email' was added to '/users/{id}',LOW
+endpoint '/products' was removed,HIGH
+optional field 'role' was added to '/products',LOW
+new endpoint '/users' was added,LOW
+field 'token' was renamed in '/products/{id}',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+optional field 'amount' was added to '/orders/{id}',LOW
+description updated for '/products',LOW
+field 'role' was renamed in '/products/{id}',MEDIUM
+endpoint '/products' was removed,HIGH
+optional field 'id' was added to '/auth/login',LOW
+new endpoint '/products/{id}' was added,LOW
+new endpoint '/auth/login' was added,LOW
+field 'email' was renamed in '/users/{id}',MEDIUM
+new endpoint '/orders' was added,LOW
+description updated for '/users',LOW
+field 'id' type changed from boolean to object in '/orders',MEDIUM
+field 'status' type changed from string to integer in '/users/{id}',MEDIUM
+optional field 'created_at' was added to '/auth/login',LOW
+description updated for '/orders/{id}',LOW
+optional field 'amount' was added to '/orders/{id}',LOW
+field 'created_at' was renamed in '/products',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+field 'created_at' type changed from integer to string in '/products/{id}',MEDIUM
+endpoint '/products' was removed,HIGH
+new endpoint '/products/{id}' was added,LOW
+description updated for '/auth/login',LOW
+field 'role' type changed from array to array in '/users',MEDIUM
+optional field 'id' was added to '/orders/{id}',LOW
+optional field 'amount' was added to '/orders',LOW
+optional field 'token' was added to '/users/{id}',LOW
+field 'role' was renamed in '/products',MEDIUM
+field 'created_at' was renamed in '/orders',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+optional field 'role' was added to '/users/{id}',LOW
+field 'token' was renamed in '/orders/{id}',MEDIUM
+description updated for '/products',LOW
+field 'amount' type changed from integer to integer in '/users',MEDIUM
+field 'created_at' type changed from array to string in '/users/{id}',MEDIUM
+description updated for '/products',LOW
+new endpoint '/products' was added,LOW
+optional field 'amount' was added to '/users',LOW
+field 'amount' type changed from integer to object in '/users/{id}',MEDIUM
+description updated for '/users',LOW
+endpoint '/orders/{id}' was removed,HIGH
+endpoint '/users/{id}' was removed,HIGH
+description updated for '/orders',LOW
+optional field 'amount' was added to '/products',LOW
+required field 'status' was removed from '/users',HIGH
+required field 'status' was removed from '/orders/{id}',HIGH
+field 'id' type changed from object to string in '/auth/login',MEDIUM
+required field 'created_at' was removed from '/users/{id}',HIGH
+optional field 'token' was added to '/orders',LOW
+description updated for '/users',LOW
+field 'token' was renamed in '/auth/login',MEDIUM
+required field 'amount' was removed from '/users/{id}',HIGH
+optional field 'amount' was added to '/users',LOW
+field 'amount' was renamed in '/users/{id}',MEDIUM
+required field 'id' was removed from '/users',HIGH
+field 'role' was renamed in '/users/{id}',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+field 'token' was renamed in '/auth/login',MEDIUM
+field 'created_at' was renamed in '/users/{id}',MEDIUM
+description updated for '/orders',LOW
+new endpoint '/orders/{id}' was added,LOW
+optional field 'role' was added to '/orders/{id}',LOW
+new endpoint '/orders/{id}' was added,LOW
+new endpoint '/orders/{id}' was added,LOW
+endpoint '/users' was removed,HIGH
+required field 'created_at' was removed from '/users',HIGH
+field 'role' type changed from string to array in '/users/{id}',MEDIUM
+description updated for '/users/{id}',LOW
+optional field 'status' was added to '/orders/{id}',LOW
+field 'amount' type changed from boolean to object in '/products',MEDIUM
+field 'email' type changed from integer to object in '/products/{id}',MEDIUM
+endpoint '/products' was removed,HIGH
+description updated for '/auth/login',LOW
+field 'token' was renamed in '/orders',MEDIUM
+field 'created_at' type changed from boolean to string in '/products',MEDIUM
+new endpoint '/orders' was added,LOW
+field 'created_at' was renamed in '/products',MEDIUM
+optional field 'amount' was added to '/products',LOW
+optional field 'amount' was added to '/products/{id}',LOW
+field 'role' was renamed in '/users/{id}',MEDIUM
+field 'status' was renamed in '/products',MEDIUM
+field 'created_at' type changed from array to array in '/auth/login',MEDIUM
+endpoint '/users' was removed,HIGH
+field 'amount' was renamed in '/auth/login',MEDIUM
+description updated for '/orders',LOW
+endpoint '/auth/login' was removed,HIGH
+field 'email' type changed from string to integer in '/products/{id}',MEDIUM
+field 'amount' type changed from object to integer in '/orders',MEDIUM
+required field 'amount' was removed from '/orders',HIGH
+new endpoint '/users/{id}' was added,LOW
+description updated for '/users/{id}',LOW
+description updated for '/auth/login',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+description updated for '/users',LOW
+optional field 'status' was added to '/products',LOW
+required field 'role' was removed from '/products/{id}',HIGH
+optional field 'status' was added to '/auth/login',LOW
+field 'created_at' was renamed in '/orders',MEDIUM
+required field 'amount' was removed from '/auth/login',HIGH
+optional field 'created_at' was added to '/users',LOW
+optional field 'id' was added to '/users',LOW
+new endpoint '/users/{id}' was added,LOW
+field 'amount' was renamed in '/users/{id}',MEDIUM
+optional field 'email' was added to '/products/{id}',LOW
+optional field 'id' was added to '/products/{id}',LOW
+field 'token' type changed from integer to string in '/products',MEDIUM
+field 'email' type changed from boolean to array in '/orders',MEDIUM
+required field 'role' was removed from '/users/{id}',HIGH
+description updated for '/auth/login',LOW
+required field 'amount' was removed from '/orders/{id}',HIGH
+new endpoint '/users/{id}' was added,LOW
+field 'role' type changed from boolean to boolean in '/products/{id}',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+field 'token' type changed from array to array in '/auth/login',MEDIUM
+required field 'amount' was removed from '/users',HIGH
+field 'status' type changed from object to integer in '/users/{id}',MEDIUM
+required field 'created_at' was removed from '/products/{id}',HIGH
+endpoint '/users' was removed,HIGH
+endpoint '/orders/{id}' was removed,HIGH
+required field 'id' was removed from '/products',HIGH
+required field 'email' was removed from '/users/{id}',HIGH
+description updated for '/users/{id}',LOW
+description updated for '/auth/login',LOW
+optional field 'id' was added to '/auth/login',LOW
+field 'amount' type changed from string to boolean in '/products',MEDIUM
+required field 'status' was removed from '/auth/login',HIGH
+new endpoint '/orders' was added,LOW
+optional field 'token' was added to '/orders/{id}',LOW
+description updated for '/orders',LOW
+endpoint '/users/{id}' was removed,HIGH
+new endpoint '/products/{id}' was added,LOW
+description updated for '/users',LOW
+required field 'amount' was removed from '/orders',HIGH
+new endpoint '/orders' was added,LOW
+endpoint '/products/{id}' was removed,HIGH
+new endpoint '/auth/login' was added,LOW
+field 'email' type changed from object to integer in '/orders',MEDIUM
+description updated for '/users/{id}',LOW
+optional field 'status' was added to '/orders',LOW
+required field 'id' was removed from '/orders/{id}',HIGH
+field 'email' type changed from array to string in '/products/{id}',MEDIUM
+new endpoint '/products' was added,LOW
+required field 'amount' was removed from '/orders/{id}',HIGH
+field 'amount' was renamed in '/users',MEDIUM
+new endpoint '/products/{id}' was added,LOW
+optional field 'email' was added to '/orders/{id}',LOW
+endpoint '/users' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+field 'id' type changed from integer to string in '/users/{id}',MEDIUM
+optional field 'token' was added to '/auth/login',LOW
+optional field 'created_at' was added to '/products/{id}',LOW
+field 'id' was renamed in '/products',MEDIUM
+field 'role' was renamed in '/users',MEDIUM
+description updated for '/auth/login',LOW
+new endpoint '/auth/login' was added,LOW
+description updated for '/orders/{id}',LOW
+endpoint '/orders/{id}' was removed,HIGH
+field 'created_at' type changed from string to string in '/auth/login',MEDIUM
+field 'role' was renamed in '/users/{id}',MEDIUM
+optional field 'role' was added to '/users',LOW
+description updated for '/products',LOW
+endpoint '/users' was removed,HIGH
+required field 'status' was removed from '/orders',HIGH
+endpoint '/users/{id}' was removed,HIGH
+new endpoint '/orders/{id}' was added,LOW
+optional field 'amount' was added to '/orders/{id}',LOW
+field 'created_at' type changed from array to array in '/orders/{id}',MEDIUM
+endpoint '/users' was removed,HIGH
+endpoint '/users/{id}' was removed,HIGH
+description updated for '/products',LOW
+optional field 'email' was added to '/products',LOW
+required field 'amount' was removed from '/products',HIGH
+field 'id' type changed from object to integer in '/orders/{id}',MEDIUM
+field 'status' type changed from object to object in '/orders/{id}',MEDIUM
+field 'id' type changed from string to array in '/orders',MEDIUM
+description updated for '/orders',LOW
+optional field 'token' was added to '/orders',LOW
+field 'token' type changed from integer to integer in '/users',MEDIUM
+endpoint '/products' was removed,HIGH
+field 'token' type changed from integer to array in '/users',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+description updated for '/auth/login',LOW
+field 'status' was renamed in '/orders',MEDIUM
+required field 'status' was removed from '/orders',HIGH
+optional field 'created_at' was added to '/products',LOW
+field 'created_at' was renamed in '/orders',MEDIUM
+description updated for '/users',LOW
+field 'id' type changed from integer to array in '/users/{id}',MEDIUM
+required field 'id' was removed from '/orders/{id}',HIGH
+required field 'role' was removed from '/users',HIGH
+required field 'created_at' was removed from '/users',HIGH
+optional field 'amount' was added to '/users/{id}',LOW
+field 'id' type changed from integer to string in '/orders/{id}',MEDIUM
+required field 'role' was removed from '/auth/login',HIGH
+field 'status' type changed from string to object in '/users',MEDIUM
+required field 'id' was removed from '/orders',HIGH
+required field 'amount' was removed from '/products/{id}',HIGH
+field 'created_at' was renamed in '/products',MEDIUM
+field 'id' was renamed in '/products',MEDIUM
+description updated for '/orders',LOW
+endpoint '/auth/login' was removed,HIGH
+optional field 'status' was added to '/auth/login',LOW
+required field 'created_at' was removed from '/users/{id}',HIGH
+new endpoint '/orders' was added,LOW
+new endpoint '/users' was added,LOW
+endpoint '/auth/login' was removed,HIGH
+description updated for '/products',LOW
+required field 'created_at' was removed from '/products/{id}',HIGH
+field 'id' type changed from array to integer in '/orders',MEDIUM
+new endpoint '/users' was added,LOW
+required field 'created_at' was removed from '/auth/login',HIGH
+new endpoint '/users' was added,LOW
+endpoint '/products' was removed,HIGH
+optional field 'role' was added to '/products',LOW
+field 'id' type changed from object to array in '/products',MEDIUM
+field 'status' was renamed in '/orders',MEDIUM
+description updated for '/users',LOW
+new endpoint '/orders/{id}' was added,LOW
+optional field 'email' was added to '/products/{id}',LOW
+required field 'amount' was removed from '/products/{id}',HIGH
+field 'id' type changed from array to object in '/users/{id}',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+field 'status' type changed from string to integer in '/products',MEDIUM
+new endpoint '/orders/{id}' was added,LOW
+field 'email' was renamed in '/products/{id}',MEDIUM
+required field 'status' was removed from '/products/{id}',HIGH
+field 'id' type changed from array to array in '/orders',MEDIUM
+endpoint '/orders/{id}' was removed,HIGH
+field 'role' was renamed in '/orders/{id}',MEDIUM
+new endpoint '/orders/{id}' was added,LOW
+description updated for '/orders',LOW
+optional field 'status' was added to '/products/{id}',LOW
+new endpoint '/users' was added,LOW
+description updated for '/users/{id}',LOW
+optional field 'amount' was added to '/products',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+endpoint '/orders/{id}' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+description updated for '/products',LOW
+field 'created_at' was renamed in '/orders/{id}',MEDIUM
+field 'status' was renamed in '/orders',MEDIUM
+description updated for '/orders',LOW
+new endpoint '/auth/login' was added,LOW
+endpoint '/users/{id}' was removed,HIGH
+optional field 'token' was added to '/users',LOW
+optional field 'amount' was added to '/orders',LOW
+optional field 'role' was added to '/users',LOW
+new endpoint '/users' was added,LOW
+field 'id' was renamed in '/users',MEDIUM
+field 'role' was renamed in '/products/{id}',MEDIUM
+endpoint '/products/{id}' was removed,HIGH
+field 'role' was renamed in '/users/{id}',MEDIUM
+new endpoint '/orders/{id}' was added,LOW
+new endpoint '/orders/{id}' was added,LOW
+field 'created_at' type changed from integer to integer in '/auth/login',MEDIUM
+description updated for '/orders',LOW
+optional field 'amount' was added to '/orders/{id}',LOW
+field 'created_at' was renamed in '/products/{id}',MEDIUM
+required field 'created_at' was removed from '/orders',HIGH
+optional field 'created_at' was added to '/users/{id}',LOW
+required field 'role' was removed from '/products/{id}',HIGH
+required field 'id' was removed from '/products/{id}',HIGH
+description updated for '/orders/{id}',LOW
+endpoint '/users/{id}' was removed,HIGH
+optional field 'amount' was added to '/auth/login',LOW
+optional field 'role' was added to '/orders',LOW
+description updated for '/orders/{id}',LOW
+optional field 'role' was added to '/orders',LOW
+optional field 'token' was added to '/auth/login',LOW
+required field 'role' was removed from '/users/{id}',HIGH
+field 'token' was renamed in '/products',MEDIUM
+description updated for '/users',LOW
+endpoint '/orders/{id}' was removed,HIGH
+new endpoint '/users/{id}' was added,LOW
+description updated for '/users/{id}',LOW
+description updated for '/products',LOW
+endpoint '/orders' was removed,HIGH
+description updated for '/orders',LOW
+new endpoint '/orders' was added,LOW
+field 'email' was renamed in '/orders',MEDIUM
+field 'status' was renamed in '/users',MEDIUM
+new endpoint '/orders/{id}' was added,LOW
+optional field 'role' was added to '/users/{id}',LOW
+optional field 'role' was added to '/products/{id}',LOW
+description updated for '/users',LOW
+field 'amount' type changed from integer to integer in '/products/{id}',MEDIUM
+field 'email' type changed from integer to integer in '/products',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+field 'status' was renamed in '/users',MEDIUM
+new endpoint '/users' was added,LOW
+description updated for '/auth/login',LOW
+required field 'created_at' was removed from '/orders/{id}',HIGH
+field 'created_at' was renamed in '/users/{id}',MEDIUM
+description updated for '/orders/{id}',LOW
+field 'role' type changed from string to boolean in '/orders',MEDIUM
+field 'id' was renamed in '/products',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+field 'role' was renamed in '/orders/{id}',MEDIUM
+required field 'id' was removed from '/products',HIGH
+field 'amount' was renamed in '/products/{id}',MEDIUM
+description updated for '/users',LOW
+field 'email' type changed from string to boolean in '/auth/login',MEDIUM
+field 'id' was renamed in '/products',MEDIUM
+field 'status' was renamed in '/users',MEDIUM
+endpoint '/orders/{id}' was removed,HIGH
+field 'email' was renamed in '/products',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+required field 'email' was removed from '/orders/{id}',HIGH
+required field 'token' was removed from '/products',HIGH
+optional field 'role' was added to '/products',LOW
+description updated for '/users/{id}',LOW
+endpoint '/auth/login' was removed,HIGH
+description updated for '/users/{id}',LOW
+description updated for '/users',LOW
+field 'token' type changed from boolean to boolean in '/products',MEDIUM
+optional field 'status' was added to '/products/{id}',LOW
+description updated for '/products/{id}',LOW
+description updated for '/users/{id}',LOW
+description updated for '/products',LOW
+new endpoint '/products' was added,LOW
+description updated for '/users/{id}',LOW
+optional field 'amount' was added to '/users/{id}',LOW
+endpoint '/products' was removed,HIGH
+new endpoint '/users' was added,LOW
+optional field 'amount' was added to '/users/{id}',LOW
+new endpoint '/orders' was added,LOW
+required field 'token' was removed from '/orders',HIGH
+endpoint '/users/{id}' was removed,HIGH
+endpoint '/auth/login' was removed,HIGH
+field 'email' type changed from integer to string in '/users/{id}',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+optional field 'role' was added to '/products/{id}',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+optional field 'token' was added to '/products/{id}',LOW
+optional field 'email' was added to '/products',LOW
+new endpoint '/auth/login' was added,LOW
+optional field 'status' was added to '/auth/login',LOW
+description updated for '/products',LOW
+endpoint '/orders/{id}' was removed,HIGH
+field 'email' type changed from array to object in '/orders',MEDIUM
+optional field 'status' was added to '/auth/login',LOW
+field 'created_at' was renamed in '/orders',MEDIUM
+new endpoint '/auth/login' was added,LOW
+required field 'amount' was removed from '/users/{id}',HIGH
+field 'id' was renamed in '/users',MEDIUM
+description updated for '/users',LOW
+description updated for '/products/{id}',LOW
+description updated for '/orders',LOW
+endpoint '/products' was removed,HIGH
+field 'id' type changed from boolean to string in '/users',MEDIUM
+description updated for '/users/{id}',LOW
+field 'status' was renamed in '/users/{id}',MEDIUM
+field 'token' type changed from boolean to array in '/users',MEDIUM
+field 'id' type changed from boolean to string in '/users/{id}',MEDIUM
+required field 'token' was removed from '/auth/login',HIGH
+optional field 'email' was added to '/orders',LOW
+endpoint '/orders/{id}' was removed,HIGH
+new endpoint '/products' was added,LOW
+optional field 'amount' was added to '/auth/login',LOW
+description updated for '/products/{id}',LOW
+description updated for '/users/{id}',LOW
+endpoint '/auth/login' was removed,HIGH
+endpoint '/users/{id}' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+endpoint '/users' was removed,HIGH
+required field 'created_at' was removed from '/users/{id}',HIGH
+new endpoint '/auth/login' was added,LOW
+required field 'email' was removed from '/products/{id}',HIGH
+field 'amount' was renamed in '/orders/{id}',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+field 'amount' type changed from integer to string in '/users',MEDIUM
+optional field 'amount' was added to '/users',LOW
+endpoint '/users' was removed,HIGH
+optional field 'id' was added to '/auth/login',LOW
+required field 'role' was removed from '/products',HIGH
+required field 'id' was removed from '/orders/{id}',HIGH
+field 'status' type changed from boolean to string in '/orders',MEDIUM
+description updated for '/users',LOW
+required field 'amount' was removed from '/orders/{id}',HIGH
+optional field 'email' was added to '/users',LOW
+endpoint '/products' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+new endpoint '/users' was added,LOW
+field 'token' was renamed in '/users/{id}',MEDIUM
+description updated for '/products',LOW
+field 'token' was renamed in '/orders/{id}',MEDIUM
+description updated for '/users/{id}',LOW
+field 'status' was renamed in '/users',MEDIUM
+description updated for '/users',LOW
+new endpoint '/products' was added,LOW
+new endpoint '/products' was added,LOW
+optional field 'created_at' was added to '/orders',LOW
+optional field 'email' was added to '/users',LOW
+optional field 'id' was added to '/users/{id}',LOW
+field 'token' was renamed in '/products/{id}',MEDIUM
+required field 'role' was removed from '/users/{id}',HIGH
+new endpoint '/products' was added,LOW
+endpoint '/orders/{id}' was removed,HIGH
+new endpoint '/orders' was added,LOW
+field 'created_at' was renamed in '/orders',MEDIUM
+field 'email' was renamed in '/orders',MEDIUM
+field 'id' type changed from boolean to array in '/orders/{id}',MEDIUM
+description updated for '/auth/login',LOW
+required field 'token' was removed from '/products/{id}',HIGH
+new endpoint '/products' was added,LOW
+endpoint '/orders' was removed,HIGH
+field 'amount' type changed from integer to object in '/users',MEDIUM
+required field 'status' was removed from '/users',HIGH
+field 'token' was renamed in '/users/{id}',MEDIUM
+field 'role' type changed from array to string in '/users/{id}',MEDIUM
+required field 'amount' was removed from '/orders/{id}',HIGH
+required field 'token' was removed from '/users/{id}',HIGH
+field 'email' type changed from object to integer in '/orders',MEDIUM
+new endpoint '/orders' was added,LOW
+field 'status' was renamed in '/products/{id}',MEDIUM
+field 'amount' was renamed in '/orders',MEDIUM
+field 'created_at' type changed from string to integer in '/auth/login',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+required field 'email' was removed from '/orders',HIGH
+field 'created_at' was renamed in '/orders',MEDIUM
+field 'token' type changed from integer to string in '/orders/{id}',MEDIUM
+field 'status' type changed from integer to object in '/auth/login',MEDIUM
+new endpoint '/products' was added,LOW
+field 'amount' type changed from array to object in '/orders/{id}',MEDIUM
+description updated for '/auth/login',LOW
+field 'id' type changed from boolean to boolean in '/auth/login',MEDIUM
+endpoint '/users' was removed,HIGH
+description updated for '/auth/login',LOW
+description updated for '/auth/login',LOW
+field 'id' was renamed in '/products',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+optional field 'email' was added to '/products/{id}',LOW
+field 'id' type changed from boolean to string in '/products/{id}',MEDIUM
+description updated for '/auth/login',LOW
+field 'email' type changed from boolean to boolean in '/orders',MEDIUM
+endpoint '/orders' was removed,HIGH
+field 'email' was renamed in '/users/{id}',MEDIUM
+required field 'status' was removed from '/products/{id}',HIGH
+description updated for '/orders/{id}',LOW
+endpoint '/users' was removed,HIGH
+optional field 'token' was added to '/orders/{id}',LOW
+description updated for '/orders/{id}',LOW
+description updated for '/products',LOW
+optional field 'token' was added to '/users/{id}',LOW
+description updated for '/orders/{id}',LOW
+description updated for '/products/{id}',LOW
+field 'amount' type changed from integer to object in '/users',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+optional field 'created_at' was added to '/orders/{id}',LOW
+optional field 'created_at' was added to '/auth/login',LOW
+new endpoint '/users/{id}' was added,LOW
+field 'id' type changed from string to string in '/auth/login',MEDIUM
+endpoint '/users' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+required field 'role' was removed from '/orders/{id}',HIGH
+required field 'role' was removed from '/users/{id}',HIGH
+field 'status' type changed from boolean to integer in '/products/{id}',MEDIUM
+field 'email' type changed from integer to string in '/products/{id}',MEDIUM
+description updated for '/users',LOW
+new endpoint '/auth/login' was added,LOW
+new endpoint '/orders' was added,LOW
+endpoint '/orders' was removed,HIGH
+new endpoint '/products' was added,LOW
+new endpoint '/users' was added,LOW
+required field 'created_at' was removed from '/users/{id}',HIGH
+optional field 'created_at' was added to '/products/{id}',LOW
+optional field 'token' was added to '/users/{id}',LOW
+description updated for '/orders/{id}',LOW
+endpoint '/auth/login' was removed,HIGH
+endpoint '/orders/{id}' was removed,HIGH
+new endpoint '/auth/login' was added,LOW
+endpoint '/orders' was removed,HIGH
+endpoint '/auth/login' was removed,HIGH
+optional field 'id' was added to '/users/{id}',LOW
+description updated for '/users',LOW
+optional field 'status' was added to '/orders',LOW
+optional field 'email' was added to '/orders',LOW
+description updated for '/users',LOW
+endpoint '/users/{id}' was removed,HIGH
+field 'email' was renamed in '/orders',MEDIUM
+field 'created_at' was renamed in '/orders/{id}',MEDIUM
+description updated for '/products/{id}',LOW
+optional field 'amount' was added to '/products/{id}',LOW
+optional field 'token' was added to '/products/{id}',LOW
+endpoint '/auth/login' was removed,HIGH
+required field 'token' was removed from '/users',HIGH
+new endpoint '/products/{id}' was added,LOW
+description updated for '/products',LOW
+required field 'created_at' was removed from '/users/{id}',HIGH
+optional field 'status' was added to '/products/{id}',LOW
+field 'status' was renamed in '/orders',MEDIUM
+optional field 'created_at' was added to '/products',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+required field 'created_at' was removed from '/orders',HIGH
+field 'role' type changed from boolean to string in '/users',MEDIUM
+field 'email' was renamed in '/orders/{id}',MEDIUM
+description updated for '/products',LOW
+field 'token' type changed from object to string in '/auth/login',MEDIUM
+required field 'status' was removed from '/users',HIGH
+description updated for '/products',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+endpoint '/users/{id}' was removed,HIGH
+optional field 'role' was added to '/products/{id}',LOW
+required field 'id' was removed from '/products',HIGH
+field 'token' type changed from object to boolean in '/products',MEDIUM
+new endpoint '/auth/login' was added,LOW
+optional field 'status' was added to '/users',LOW
+required field 'status' was removed from '/users/{id}',HIGH
+new endpoint '/orders' was added,LOW
+optional field 'role' was added to '/users',LOW
+field 'id' type changed from array to string in '/orders/{id}',MEDIUM
+new endpoint '/users' was added,LOW
+new endpoint '/products' was added,LOW
+new endpoint '/users/{id}' was added,LOW
+field 'id' type changed from integer to string in '/products',MEDIUM
+field 'role' was renamed in '/auth/login',MEDIUM
+field 'status' was renamed in '/users/{id}',MEDIUM
+optional field 'status' was added to '/auth/login',LOW
+optional field 'token' was added to '/auth/login',LOW
+endpoint '/orders' was removed,HIGH
+new endpoint '/orders/{id}' was added,LOW
+endpoint '/orders/{id}' was removed,HIGH
+required field 'token' was removed from '/auth/login',HIGH
+field 'id' type changed from string to object in '/products',MEDIUM
+endpoint '/users' was removed,HIGH
+required field 'status' was removed from '/orders/{id}',HIGH
+optional field 'role' was added to '/users/{id}',LOW
+required field 'token' was removed from '/users/{id}',HIGH
+field 'created_at' type changed from boolean to object in '/products',MEDIUM
+field 'amount' type changed from object to boolean in '/products/{id}',MEDIUM
+optional field 'status' was added to '/auth/login',LOW
+new endpoint '/auth/login' was added,LOW
+endpoint '/orders/{id}' was removed,HIGH
+description updated for '/users/{id}',LOW
+optional field 'token' was added to '/products',LOW
+field 'status' type changed from array to integer in '/products',MEDIUM
+field 'token' type changed from boolean to array in '/products',MEDIUM
+endpoint '/auth/login' was removed,HIGH
+required field 'email' was removed from '/products',HIGH
+required field 'status' was removed from '/users/{id}',HIGH
+field 'amount' type changed from array to object in '/products/{id}',MEDIUM
+required field 'id' was removed from '/products',HIGH
+new endpoint '/products' was added,LOW
+field 'created_at' type changed from integer to string in '/products',MEDIUM
+endpoint '/orders' was removed,HIGH
+field 'status' type changed from array to object in '/users/{id}',MEDIUM
+optional field 'id' was added to '/orders',LOW
+field 'status' was renamed in '/orders',MEDIUM
+field 'id' type changed from array to string in '/products/{id}',MEDIUM
+new endpoint '/products' was added,LOW
+new endpoint '/orders' was added,LOW
+field 'amount' was renamed in '/orders/{id}',MEDIUM
+description updated for '/auth/login',LOW
+field 'status' was renamed in '/products',MEDIUM
+endpoint '/orders/{id}' was removed,HIGH
+field 'amount' type changed from boolean to boolean in '/products/{id}',MEDIUM
+new endpoint '/orders' was added,LOW
+optional field 'token' was added to '/orders',LOW
+description updated for '/orders/{id}',LOW
+endpoint '/orders/{id}' was removed,HIGH
+field 'id' was renamed in '/orders',MEDIUM
+description updated for '/orders',LOW
+optional field 'amount' was added to '/products',LOW
+field 'token' was renamed in '/users/{id}',MEDIUM
+optional field 'amount' was added to '/users/{id}',LOW
+new endpoint '/users' was added,LOW
+field 'status' type changed from string to array in '/orders',MEDIUM
+new endpoint '/products' was added,LOW
+endpoint '/auth/login' was removed,HIGH
+field 'role' was renamed in '/users/{id}',MEDIUM
+optional field 'status' was added to '/orders',LOW
+field 'status' was renamed in '/products/{id}',MEDIUM
+new endpoint '/orders' was added,LOW
+optional field 'token' was added to '/products',LOW
+required field 'amount' was removed from '/users',HIGH
+description updated for '/products',LOW
+field 'token' was renamed in '/orders/{id}',MEDIUM
+description updated for '/orders',LOW
+description updated for '/products',LOW
+required field 'created_at' was removed from '/users',HIGH
+field 'created_at' was renamed in '/users',MEDIUM
+required field 'amount' was removed from '/products/{id}',HIGH
+required field 'email' was removed from '/orders',HIGH
+description updated for '/auth/login',LOW
+required field 'id' was removed from '/users/{id}',HIGH
+endpoint '/orders' was removed,HIGH
+field 'amount' type changed from array to object in '/auth/login',MEDIUM
+optional field 'email' was added to '/products',LOW
+description updated for '/products/{id}',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+endpoint '/orders' was removed,HIGH
+description updated for '/users',LOW
+optional field 'created_at' was added to '/users/{id}',LOW
+endpoint '/users/{id}' was removed,HIGH
+required field 'amount' was removed from '/orders/{id}',HIGH
+optional field 'token' was added to '/orders',LOW
+optional field 'created_at' was added to '/orders',LOW
+new endpoint '/orders/{id}' was added,LOW
+new endpoint '/products/{id}' was added,LOW
+description updated for '/auth/login',LOW
+endpoint '/users/{id}' was removed,HIGH
+new endpoint '/orders/{id}' was added,LOW
+description updated for '/orders',LOW
+required field 'created_at' was removed from '/orders',HIGH
+new endpoint '/users/{id}' was added,LOW
+description updated for '/products/{id}',LOW
+endpoint '/products' was removed,HIGH
+field 'status' type changed from boolean to string in '/users/{id}',MEDIUM
+endpoint '/users' was removed,HIGH
+required field 'role' was removed from '/products/{id}',HIGH
+required field 'created_at' was removed from '/users/{id}',HIGH
+description updated for '/users/{id}',LOW
+optional field 'status' was added to '/products/{id}',LOW
+field 'email' type changed from boolean to array in '/orders',MEDIUM
+description updated for '/auth/login',LOW
+required field 'role' was removed from '/auth/login',HIGH
+field 'amount' was renamed in '/users',MEDIUM
+optional field 'email' was added to '/orders/{id}',LOW
+optional field 'role' was added to '/users/{id}',LOW
+optional field 'status' was added to '/products',LOW
+endpoint '/orders/{id}' was removed,HIGH
+required field 'amount' was removed from '/orders',HIGH
+description updated for '/users',LOW
+optional field 'created_at' was added to '/products/{id}',LOW
+field 'status' type changed from string to string in '/orders',MEDIUM
+field 'status' type changed from object to string in '/users/{id}',MEDIUM
+description updated for '/users',LOW
+optional field 'id' was added to '/auth/login',LOW
+field 'created_at' type changed from string to integer in '/auth/login',MEDIUM
+optional field 'amount' was added to '/orders',LOW
+endpoint '/orders/{id}' was removed,HIGH
+description updated for '/users/{id}',LOW
+new endpoint '/auth/login' was added,LOW
+required field 'role' was removed from '/orders',HIGH
+optional field 'id' was added to '/orders/{id}',LOW
+optional field 'role' was added to '/products/{id}',LOW
+endpoint '/auth/login' was removed,HIGH
+new endpoint '/users/{id}' was added,LOW
+field 'email' type changed from object to boolean in '/users',MEDIUM
+field 'token' was renamed in '/orders/{id}',MEDIUM
+optional field 'status' was added to '/products/{id}',LOW
+description updated for '/users',LOW
+description updated for '/auth/login',LOW
+new endpoint '/auth/login' was added,LOW
+field 'id' type changed from boolean to array in '/users',MEDIUM
+field 'status' type changed from string to boolean in '/auth/login',MEDIUM
+endpoint '/users' was removed,HIGH
+description updated for '/users/{id}',LOW
+description updated for '/products',LOW
+endpoint '/auth/login' was removed,HIGH
+required field 'email' was removed from '/products/{id}',HIGH
+optional field 'amount' was added to '/orders/{id}',LOW
+field 'id' was renamed in '/orders/{id}',MEDIUM
+required field 'amount' was removed from '/orders',HIGH
+field 'id' type changed from integer to array in '/orders',MEDIUM
+optional field 'role' was added to '/products',LOW
+field 'role' type changed from string to string in '/users',MEDIUM
+field 'token' type changed from array to boolean in '/orders',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+field 'id' was renamed in '/products/{id}',MEDIUM
+endpoint '/users/{id}' was removed,HIGH
+field 'role' type changed from array to object in '/products',MEDIUM
+endpoint '/products' was removed,HIGH
+endpoint '/users/{id}' was removed,HIGH
+description updated for '/users/{id}',LOW
+required field 'amount' was removed from '/auth/login',HIGH
+required field 'id' was removed from '/products',HIGH
+field 'created_at' was renamed in '/products',MEDIUM
+field 'id' type changed from integer to string in '/auth/login',MEDIUM
+optional field 'created_at' was added to '/users/{id}',LOW
+field 'id' was renamed in '/products/{id}',MEDIUM
+new endpoint '/users/{id}' was added,LOW
+field 'amount' was renamed in '/orders',MEDIUM
+field 'status' type changed from array to array in '/users/{id}',MEDIUM
+optional field 'status' was added to '/orders/{id}',LOW
+endpoint '/products/{id}' was removed,HIGH
+optional field 'email' was added to '/users',LOW
+field 'amount' type changed from integer to array in '/auth/login',MEDIUM
+required field 'role' was removed from '/products/{id}',HIGH
+endpoint '/users/{id}' was removed,HIGH
+endpoint '/orders' was removed,HIGH
+field 'token' type changed from boolean to string in '/orders/{id}',MEDIUM
+field 'created_at' type changed from integer to integer in '/products/{id}',MEDIUM
+new endpoint '/products/{id}' was added,LOW
+required field 'id' was removed from '/products/{id}',HIGH
+optional field 'token' was added to '/auth/login',LOW
+new endpoint '/orders' was added,LOW
+optional field 'status' was added to '/users/{id}',LOW
+new endpoint '/products' was added,LOW
+optional field 'created_at' was added to '/orders/{id}',LOW
+field 'created_at' type changed from string to boolean in '/users/{id}',MEDIUM
