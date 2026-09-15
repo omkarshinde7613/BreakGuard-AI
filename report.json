@@ -2,6 +2,13 @@
   "overall_risk": "MEDIUM",
   "changes": [
     {
+      "type": "endpoint_added",
+      "endpoint": "GET /users/{id}/profile",
+      "risk": "LOW",
+      "ml_risk": "LOW",
+      "description": "new endpoint 'GET /users/{id}/profile' was added"
+    },
+    {
       "type": "parameter_type_changed",
       "parameter": "id",
       "old_type": "integer",
