@@ -24,6 +24,11 @@ model.fit(X_train_vec, y_train)
 predictions = model.predict(X_test_vec)
 
 print("Accuracy:", accuracy_score(y_test, predictions))
-print(classification_report(y_test, predictions))
 
-print(classification_report(y_test, predictions))
+import joblib
+
+joblib.dump(model, "breakguard/risk_model.joblib")
+joblib.dump(vectorizer, "breakguard/vectorizer.joblib")
+
+print("Model and vectorizer saved.")
+

@@ -7,7 +7,9 @@
       "old_type": "integer",
       "new_type": "string",
       "endpoint": "GET /users/{id}",
-      "risk": "MEDIUM"
+      "risk": "MEDIUM",
+      "ml_risk": "MEDIUM",
+      "description": "field 'id' type changed from integer to string in 'GET /users/{id}'"
     }
   ]
 }
