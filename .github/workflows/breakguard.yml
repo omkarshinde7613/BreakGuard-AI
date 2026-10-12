@@ -1,0 +1,34 @@
+name: BreakGuard
+
+on:
+  pull_request:
+    paths:
+      - "openapi.json"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check-api:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Get the base version of the schema
+        run: git show origin/${{ github.base_ref }}:openapi.json > old_openapi.json
+
+      - name: Run BreakGuard
+        run: python -m breakguard.main old_openapi.json openapi.json
+
+      - name: Show report in job summary
+        run: cat report.md >> $GITHUB_STEP_SUMMARY
