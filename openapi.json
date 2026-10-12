@@ -19,12 +19,22 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "schema": { "type": "integer" }
+            "schema": { "type": "string" }
           }
         ],
         "responses": {
           "200": {
             "description": "A single user"
+          }
+        }
+      }
+    },
+    "/users/{id}/profile": {
+      "get": {
+        "summary": "Get a user's profile",
+        "responses": {
+          "200": {
+            "description": "Profile data"
           }
         }
       }
