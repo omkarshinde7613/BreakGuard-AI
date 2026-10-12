@@ -32,3 +32,8 @@ jobs:
 
       - name: Show report in job summary
         run: cat report.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Comment on the pull request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m breakguard.github_comment report.md
