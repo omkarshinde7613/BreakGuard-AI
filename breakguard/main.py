@@ -48,6 +48,29 @@ def print_report(report: dict) -> None:
         print(f"  [rule: {change['risk']} | ml: {change['ml_risk']}] {agree}")
         print(f"    {change['description']}")
 
+RISK_ICONS = {"HIGH": "🔴", "MEDIUM": "🟠", "LOW": "🟢", "NONE": "⚪"}
+
+
+def build_markdown(report: dict) -> str:
+    overall = report["overall_risk"]
+    lines = [
+        "## BreakGuard AI Report",
+        "",
+        f"**Overall risk:** {RISK_ICONS[overall]} {overall}",
+        f"**Changes detected:** {len(report['changes'])}",
+        "",
+    ]
+
+    if report["changes"]:
+        lines.append("| Risk (rules) | Risk (ML) | Change |")
+        lines.append("|---|---|---|")
+        for change in report["changes"]:
+            lines.append(f"| {change['risk']} | {change['ml_risk']} | {change['description']} |")
+    else:
+        lines.append("No API changes detected.")
+
+    return "\n".join(lines)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
@@ -61,3 +84,6 @@ if __name__ == "__main__":
 
     with open("report.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2)
+
+    with open("report.md", "w", encoding="utf-8") as f:
+        f.write(build_markdown(result))

@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 *.joblib
 report.json
+report.md
